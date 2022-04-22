@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarditou/Contact</title>
+</head>
+<body>
+<!--Entête-->
+    <header>
+        <img src="/home/stephane/Bureau/VSC/jarditou_css/src/img/jarditou_logo.jpg" alt="Logo jarditou" width="300" height="100" >
+    
+        <p>La qualité depuis 70 ans</p>
+    
+    </header><br>
+<!--Navigation-->
+    <nav>
+        <ul>
+        <li><a href="/home/stephane/Bureau/VSC/jarditou_css/acceuil.html" title="Acceuil">Acceuil</a></li>
+        <li><a href="/home/stephane/Bureau/VSC/jarditou_css/tableau.html" title="Tableau">Tableau</a></li>
+        <li><a href="#lacible" title="Contact">Contact</a></li>
+        </ul>
+    </nav><br>
+<!--Formulaire-->
+<section>
+    <header>
+        <img src="/home/stephane/Bureau/VSC/jarditou_css/src/img/promotion.jpg" alt="Promo" width="100%" height="200">
+    </header><br>
+
+    <h1><b id="lacible">Contact</b></h1>
+    <hr>
+
+<p>*Ces zones sont obligatoires</p>
+    <form action="http://bienvu.net/script.php" method="get" id="formulaire_contact">
+
+        <!--Coordonnées-->
+    <fieldset>
+        <legend>Vos Coordonnées</legend>
+    
+    <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="nom" size="20" maxlength="50"><br>
+        
+    <label for="nom">Votre Prenom*:</label><input type="text" name="Prenom" id="Prenom" size="20" maxlength="50"><br><br>
+    
+    <label for="nom">Sexe*:</label>
+                            <input type="radio" name="Sexe" value="Masculin"> Masculin 
+                            <input type="radio" name="Sexe" value="Féminin"> Féminin <br><br>
+    
+    <label for="date">Date de naissance*: </label><input type="date" name="ddn" id="date"><br>
+    
+    <label for="nom">Code postal*:</label><input type="text" name="codepostal" id="codepostal" size="8" maxlength="5"><br>
+    
+    <label for="nom">Adresse:</label><input type="text" name="Adresse" id="Adresse" size="30" maxlength="70"><br>
+    
+    <label for="nom">Ville:</label><input type="text" name="Ville" id="Ville" size="30" maxlength="70"><br>
+    
+    <label for="nom">Email*: </label><input type="email" placeholder="dave.loper@afpa.fr" pattern="^[a-z]+$" name="email">
+    </fieldset><br><br>
+    <!--Demande-->
+    <fieldset>
+        <legend>Votre demande</legend>
+    
+        <label for="nom">Sujet*: </label>
+        <select name="Veuillez séléctionner un sujet">
+            <option> - </option>
+            <option>Mes commandes</option>
+            <option>Question sur un produit</option>
+            <option>Réclamation</option>
+            <option>Autres</option>
+        </select><br><br>
+    
+        <label for="nom">Votre question*: </label><textarea name="commentaire" rows="2" cols="20"></textarea><br><br>
+        </fieldset>
+    
+        <input type="checkbox" name="j'accepte" value="j'accepte">*J'accepte le traitement informatique de ce formaulaire
+    <br><br>
+    <input type="submit" value="Envoyer"><input type="submit" value="Annuler">
+    </form><hr>
+<!--Bas de page-->
+    <footer>
+        <ul class="menu">
+            <li><a href="mentionlegal.html">Mentions légales</a></li>
+            <li><a href="horaires.html">Horaires</a></li>
+            <li><a href="plandusite.html">Plan du site</a></li>
+        </ul>
+    </footer>
+</section>
+
+</body>
+</html>
